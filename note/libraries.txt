@@ -1,0 +1,28 @@
+//babel --(for alias reference purpose)
+npm install add  -D eslint-import-resolver-babel-module@^5.1.0  eslint-plugin-import@^2.18.2 babel-plugin-module-resolver@^3.2.0
+created .babelrc file and given directory reference so that no need to give complete path in every file
+
+//Navigation 
+npm install react-navigation --save
+npm install react-native-gesture-handler react-native-safe-area-context @react-native-community/masked-view react-native-screens react-native-reanimated --save
+npm install react-navigation-stack --save
+npm install react-navigation-tabs --save (bottom tabs)
+
+//vector Icons
+npm i react-native-vector-icons
+react-native link react-native-vector-icons
+
+npm i react-native-cardview
+react-native link react-native-cardview
+
+//pdf
+//file system access
+npm install react-native-pdf rn-fetch-blob --save
+
+//Stack Navigator
+npm install react-navigation-stack @react-native-community/masked-view react-native-safe-area-context
+
+
+//viewpager
+npm install @react-native-community/viewpager
+react-native link @react-native-community/viewpager
